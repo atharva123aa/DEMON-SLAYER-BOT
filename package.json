@@ -1,13 +1,13 @@
 {
   "name": "demon-slayer-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "bot to get demon slayer vibes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "atharva123aa",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
