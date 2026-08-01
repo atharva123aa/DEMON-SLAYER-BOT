@@ -1,6 +1,6 @@
 const hashiras= require("./hashiras");
 const knowledge= require("./knowledge");
-const quotes=require("./quote")
+const quotes=require("./quotes")
 require("dotenv").config();
 
 const { App } = require("@slack/bolt");
