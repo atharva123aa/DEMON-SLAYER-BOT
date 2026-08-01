@@ -17,22 +17,20 @@ app.command("/demon_slayer_bot-help", async({ack,respond})=>{
         /demon_slayer_bot-ping -Latency
         /demon_slayer_bot-knowledge- know more about demon.
         /demon_slayer_bot-summonhashira- Get a hashira meet.
-        /demon_slayer_bot-quote-Get a hashira demon and main char. quote.`
+        /demon_slayer_bot-quotes-Get a hashira demon and main char. quote.`
     });
 });
-app.command("/demon_slayer_bot-summonhashira",async(( {
-    ack,respond
+app.command("/demon_slayer_bot-summonhashira",async({ ack,respond
 })=>{
     await ack();
     const random =Math.floor(Math.random() * hashiras.length);
     await respond({
         text:`Hashira came(manners)\n\n${hashiras[random]}`
-    });
-    
+     
     
 
-   } )
-);
+   });
+});
 app.command("/demon_slayer_bot-knowledge", async({ command,ack,respond})=>{
     await ack();
     const name =command.text.toLowerCase();
